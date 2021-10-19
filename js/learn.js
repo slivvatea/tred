@@ -15,3 +15,4 @@ const a2 = prompt('Один из последних просмотренных �
     b2 = prompt('НАсколько оцените его?','');
 personalMoviesDB.movies[a2] = b2;
 console.log(personalMoviesDB);
+
