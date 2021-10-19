@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display:block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: -400;}
+
+body{
+    padding: 30px;
+    font-family: Arial;
+}
+.centerBut{
+    margin: 0 0 0 75px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+.selfInfo{
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+}
+.freelance p{
+    line-height: 20px;
+}
+.bold{
+    font-weight: bold;
+    line-height: 25px;
+}
+.bold>.red{
+    color: red;
+}
+.homeTask{
+    margin: 15px 0 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.right{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+.allSv{
+    line-height: 30px;
+}
+.allSv .norm{
+    font-size: 17px;
+}
+.allSv .italic{
+    font-style: italic
+}
+.allSv .underline{
+    text-decoration: underline;
+}
+.allSv .center{
+    text-align: center;
+}
+.allSv .large{
+    font-size: 22px;
+}
+.allSv .bold{
+    font-weight: 700;
+}
