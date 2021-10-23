@@ -95,3 +95,16 @@ h2{
 .allSv .bold{
     font-weight: 700;
 }
+.block{
+    border: 1px solid #000;
+    opacity: 0.5;
+    font-size: 25px;
+    margin: 0 0 30px 0;
+}
+.string{
+    font-size: 25px;
+    border: 1px dashed black;
+}
+.image{
+    border: 10px solid black;
+}
